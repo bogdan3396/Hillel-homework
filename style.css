@@ -1,162 +1,43 @@
-img {
-	vertical-align: top;
+.composition {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  background: url("https://htmlbase.ru/storage/app/media/position-task1/bg.jpg");
 }
-.header {
-   max-width: 1200px;
-    background-color: #eeeff1;
-   margin: 0 auto;
-   
-
+.planet-3 {
+position: relative;
+top:150px;
+left: 50px;
+z-index: 5;
 }
-
-.nav {
-   flex-direction: column;
-   display: flex;
-   margin-left: 250px; 
+.planet-2 {
+  position: absolute;
+right: 380px;
+top: 50px;
+z-index: 3;
 }
-
-
-
-.navigation {
-   width: 646px;
-   height: 27px;
-   display: flex;
-   justify-content: space-between;
-   padding-left: 0;
-   padding-top: 79px;
-   margin-right: 42px;
-   list-style-type: none;
-
-    
+.planet-1 {
+  position: relative;
+  right: 128px;
+  bottom: 90px;
 }
-
-.title {
-    display: flex;
-    flex-direction: column;
-     margin: 0 auto;
-     padding-top: -150px;
-     background-color: #eeeff1;
-     padding-left: 270px;
-     padding-bottom: 50px;
-
+.spaceship {
+  position: absolute;
+  left: 120px;
+  top: 180px;
+  z-index: 4;
 }
-.h1 {
-   width: 350px;
-   font-weight: 500px;
-   font-size: 48px;
-   line-height: 80px;
-   color: black;
-   padding-left:100px ;
+.ufo {
+  position: relative;
+  top: 100px;
+  left: 90px;
+  z-index: 6;
 }
-.content {
-    padding-left: 450px;
-padding-top: 50px;
-display: flex;
-flex-direction: column;
-text-align: center;
-width: 100px;
+.asteroid {
+  position: absolute;
+  top: 90px;
 }
-
-.p {
-  max-width: 540px;
-  font-weight: 400px;
-  font-size: 16px;
-  line-height: 27px;
-  color: #727272;
-   margin-top: 20px;
-   padding-left: 0;
+.superman {
+  position: absolute;
+  top: 328px;
 }
-.h2 {
-    font-weight: 500px;
-    font-size: 32px;
-    line-height: 38px;
-    text-align: center;
-    color: black;
-
-}
-.section {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 300px;
-    padding-left: 480px;
-}
-.page-dark {
- background-color: #34547A;
- width: 1920px;
- height: 350px;
-}
-
-.project {
-    max-width: 1110px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    align-items: center;
-    padding-left:30px;
-}
-.li {
-    display: inline-block;
-    margin-right: 50px;
-}
-.button {
-    width: 225px;
-    background-color: #34547A;
-    margin-top: 65px;
-    text-align: center;
-    font-weight: 400px;
-    font-size: 16px;
-    line-height: 27px;
-    color: #FFFFFF;
-}
-.project-img {
-width: 110ox;
-height: 50px;
-color: white;
-margin: 100px 50px;
-display: inline-block;
-}
-
-.project-title {
-   max-width: 1200px;
-    margin: 0 auto;
-    
-}
-.h4 {
-    padding-left: 15px;
-}
-.container-video {
-    max-width: 1400px;
-    margin: 0 auto;
-    text-align: center;
-    padding-left: 105px;
-    background-color: #eeeff1;
-}
-.text-box {
-    max-width: 270px;
-   margin: 0 auto;
-}
-.how-do {
-    padding-top: 30px;
-}
-
-.iframe {
-    max-width: 800px;
-}
-.footer {
-    background-color: #34547A;
-    padding: 30px;
-}
-.title-year {
-    color: #fff;
-}
-.title-name {
-    color: #fff;
-    font-size: 21px;
-    
-}
-
-
-
-    
-
