@@ -33,8 +33,10 @@
 }
 
 .center-section-container {
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo-name {
@@ -90,8 +92,6 @@
 }
 
 .wrapper-offers {
-  max-width: 1920px;
-  display: flex;
   justify-content: center;
   background-color: #efefef;
 }
@@ -101,6 +101,7 @@
   font-size: 24px;
   font-weight: 700px;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .spesial-offers-card {
@@ -114,7 +115,7 @@
   padding-top: 120px;
   background-color: #fff;
   padding: 10px 40px;
-  margin-right: 30px;
+  
   
 }
 
@@ -137,130 +138,122 @@
 }
 
 .wrapper-gifts {
-  max-width: 1290px;
-  margin: 0 auto;
   background-color: #efefef;
-  
 }
 
 .gifts-container-wrapper {
   display: flex;
-  justify-content: center;
-  padding: 20px 0 35px 0;
   justify-content: space-between;
-  
-
-  
+  padding: 20px 0 30px 0;
+  gap: 80px;
   
 }
 
-.gifts-wrapper-email {
+.gifts-container {
   background-color: #f13c6e;
-  
   display: flex;
-  padding: 35px 45px 35px 40px;
+  justify-content: space-between;
+  padding: 35px 40px;
   align-items: center;
-  
+  flex-grow: 1;
+ 
 }
- .card-details {
-  align-items: center;
-  justify-content: center;
- }
+.text-title-gifts {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 
- .enter-your-email {
-  border-radius: 30px;
-  background: #FFF;
-  margin-top: 40px;
- }
+}
 
- .text-gifts {
-  padding-bottom: 110px;
-  width: 250px;
-height: 17px;
-color: #FFF;
-font-family: Roboto;
+.get-bonuses {
+  color: #FFF;
+font-family: "Roboto";
 font-size: 18px;
+font-style: normal;
 font-weight: 700;
- }
+line-height: normal;
+}
 
- .text-paragraf {
+.every-month {
   color: #FFF;
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 14px;
+font-style: normal;
 font-weight: 400;
- }
+line-height: 140.625%;
 
- .car-section{
+}
 
+.enter-email {
+  border-radius: 30px;
+background: #FFF;
+
+}
+
+ .car-container {
   background-color: #f13c6e;
-  width: 500px;
   display: flex;
-  padding: 35px 45px 35px 40px;
+  justify-content: space-between;
+  padding: 35px 40px;
   align-items: center;
-  
+  flex-grow: 1;
  }
 
- .card-car {
-  align-items:
-  width: 600px;
+ .text-title-car {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
  }
-.img-car {
-  position: absolute;
-  right: 0px;
- 
-}
- 
-.title-car { 
-  color: #FFF;
-  font-family: Roboto;
-  font-size: 18px;
-  font-weight: 700;
-  padding-bottom: 100px;
-}
 
-.text-car {
+ .visit-us {
   color: #FFF;
+font-family: "Roboto";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
 
-font-family: Roboto;
+ .over-stores {
+  color: #FFF;
+font-family: "Roboto";
 font-size: 14px;
+font-style: normal;
 font-weight: 400;
-}
+line-height: 140.625%;
+ }
 
-.map-class {
+ .store-map {
   border-radius: 30px;
 border: 2px solid #FFF;
+
 background: var(--Accent, #F13C6E);
-margin-top: 10px;
-}
+ }
+
+ 
 
 .row-wrapper {
- display: flex;
  background-color: #efefef;
 }
 
- .row-list-main {
+ .row-list{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
  }
 
  .row-list-block {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-color: #efefef;
- }
-
- .row-list {
-  display: flex;
-  row-gap: 15px;
-  column-gap: 25px;
-
+  gap: 2px;
  }
 
  .row-list-block-image {
+  background-color: #fff;
   display: flex;
+  flex-grow: 1;
  }
 
+ 
 .footer-wrapper {
   max-width: 1290px;
   margin: 0 auto;
