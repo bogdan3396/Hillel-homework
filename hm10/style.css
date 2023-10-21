@@ -10,8 +10,15 @@
 
 .header__navigation-list {
     display: flex;
-    padding: 40px 0; 
+    padding: 40px 0;
+    position: relative; 
+    align-items: center;
+}
 
+.header__navigation-link {
+    display: flex;
+    position: relative;
+    align-items: center;
 }
 
 .header__navigation-item {
@@ -22,6 +29,24 @@ font-style: normal;
 line-height: 164.063%;
 margin-right: 42px;
 }
+
+/* .header__navigation-link-home::before {
+    content: url(./image/home.png);
+    
+    
+}
+.header__navigation-link-about::before {
+    content: url(./image/about.png);
+}
+.header__navigation-link-works::before {
+    content: url(./image/information-button.png);
+}
+.header__navigation-link-process::before {
+    content: url(./image/process.png);
+}
+.header__navigation-link-contacts::before {
+    content: url(./image/contact-us.png);
+} */
 
 .header-text {
     display: flex;
@@ -188,4 +213,48 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: 164.063%; 
+}
+
+.link-home::before {
+    content: "";
+    position: absolute; 
+    background-image: url(./image/home.png);
+    left: -20px;
+    width: 17px;
+    height: 18px;
+}
+.link-about::before {
+    content: "";
+    position: absolute;
+    background-image: url(./image/about.png);
+    width: 17px;
+    height: 18px;
+    left: -20px;
+}
+
+.link-works::before {
+    content: "";
+    background-image: url(./image/information-button.png);
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    left: -20px;
+}
+
+.link-process::before {
+    content: "";
+    background-image: url(./image/process.png);
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    left: -20px;
+}
+
+.link-contacts::before {
+    content: "";
+    background-image: url(./image/contact-us.png);
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    left: -20px;
 }
