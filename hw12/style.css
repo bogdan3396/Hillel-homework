@@ -1,0 +1,96 @@
+/* .grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header"
+    "sidebar  main main main"
+    "footer footer footer footer";
+    gap: 5px;
+}
+
+.header {
+    background-color: bisque;
+    grid-area: header;
+
+}
+
+.sidebar {
+    background-color: blueviolet;
+    grid-area: sidebar;
+} 
+
+.main {
+    background-color: aqua;
+    grid-area: main;
+
+}
+
+.footer {
+    background-color: cadetblue;
+    grid-area: footer;
+} */
+
+/* .grid-wrapper {
+    display: grid;
+    grid-template-rows: 100px, auto auto 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header header header"
+    "sidebar sidebar sidebar main main"
+    "content1 sidebar content1 main main"
+    "main sidebar content1 main main";
+    
+    grid-gap: 5px;
+  }
+  
+  .header {
+    grid-area: header;
+    background-color: lightyellow;
+  }
+  
+  .sidebar, .main {
+    grid-area: sidebar;
+    background-color: rgb(234, 11, 37);
+  }
+  
+  .main {
+    grid-area: main;
+    background-color: rgb(7, 237, 122);
+  }
+  
+  .content-1 {
+    grid-area: content1;
+    background-color: rgb(215, 239, 4);
+  }
+   */
+   .grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 столбцов с равными ширинами */
+    grid-template-rows: repeat(4, 1fr); /* 4 строки с равными высотами */
+    gap: 10px; /* Промежуток между элементами */
+  }
+  
+  .header {
+    grid-column: 1 / span 5; /* Занимает все 5 столбцов */
+    grid-row: 1; /* Располагается в первой строке */
+    background-color: lightblue;
+  }
+  
+  .sidebar {
+    grid-column: 1; /* Располагается в первом столбце */
+    grid-row: 2 / span 3; /* Занимает 3 строки */
+    background-color: lightgreen;
+  }
+  
+  .main {
+    grid-column: 2 / span 4; /* Занимает 4 столбца, начиная со второго */
+    grid-row: 2 / span 3; /* Занимает 3 строки, начиная со второй */
+    background-color: lightpink;
+  }
+  
+  .content-1 {
+    grid-column: 5; /* Располагается в пятом столбце */
+    grid-row: 2; /* Располагается во второй строке */
+    background-color: lightyellow;
+  }
